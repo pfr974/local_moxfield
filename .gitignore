@@ -1,0 +1,19 @@
+# build artifacts
+build/
+*.o
+*.obj
+moc_*
+ui_*
+CMakeFiles/
+CMakeCache.txt
+CMakeLists.txt.user
+untitled
+
+# local data (generated, not source)
+cache/
+images/
+*.sqlite
+*.db
+
+# secrets
+.env
