@@ -2,16 +2,17 @@
 build/
 *.o
 *.obj
-moc_*
-ui_*
+moc_*.cpp
+ui_*.h
 CMakeFiles/
 CMakeCache.txt
 CMakeLists.txt.user
-untitled
+
+# macOS
+.DS_Store
 
 # local data (generated, not source)
 cache/
-images/
 *.sqlite
 *.db
 
